@@ -1,4 +1,4 @@
-FROM php:7.2-latest
+FROM php:7.1-latest
 MAINTAINER "Bobby Hines <bobby@conflabs.com>"
 
 # Install utility
