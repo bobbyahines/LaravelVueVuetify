@@ -3,7 +3,7 @@ MAINTAINER "Bobby Hines <bobby@conflabs.com>"
 
 # Install utility
 RUN ["apt-get","update"]
-RUN ["apt-get","curl","install","-y","build-essential","nano","wget","zip"]
+RUN ["apt-get","install","-y","build-essential","curl","nano","wget","zip"]
 
 # Install composer and put binary into $PATH
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
